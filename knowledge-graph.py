@@ -22,7 +22,6 @@ from tqdm import tqdm
 import isodate
 import requests
 from sentence_transformers import SentenceTransformer
-from ai_tooling import get_agent
 
 # ========== CONFIG =============
 CONTRACTS_FOLDER = './contracts'  # Change this to your contracts folder
@@ -217,20 +216,19 @@ def main():
         pkl.dump(embeddings_output, f)
     print(f"Embeddings saved to {EMBEDDINGS_PKL}")
     print("\nEntering interactive prompt mode. Type 'quit' to exit.")
+    while True:
+        query = input("\nPrompt: ").strip()
+        if query.lower() == 'quit':
+            print("Exiting.")
+            break
+        # Send the query to Gemma and print the response
+        try:
+            response = call_gemma(query)
+            print(f"Gemma: {response}")
+        except Exception as e:
+            print(f"[Error] Failed to get response from Gemma: {e}")
 
 if __name__ == "__main__":
     main()
-
-    checkpointer=MeomorySaver()
-    config_new={'configurable':{'thread':1}}
-    graph_reference=get_agent(llm,checkpointer)
-
-    while True:
-        query=input("\nQuery:").strip()
-        response=graph_reference.invoke({'messages':[query]},config=config_new)
-        if query.lower()=='quit':
-            break
-        print('RESPONSE as : ',response['messages'][-1].content)
-
 
 
