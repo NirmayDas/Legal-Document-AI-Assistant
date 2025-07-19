@@ -22,6 +22,7 @@ from tqdm import tqdm
 import isodate
 import requests
 from sentence_transformers import SentenceTransformer
+from ai_tooling import get_agent
 
 # ========== CONFIG =============
 CONTRACTS_FOLDER = './contracts'  # Change this to your contracts folder
@@ -216,16 +217,20 @@ def main():
         pkl.dump(embeddings_output, f)
     print(f"Embeddings saved to {EMBEDDINGS_PKL}")
     print("\nEntering interactive prompt mode. Type 'quit' to exit.")
-    while True:
-        query = input("\nPrompt: ").strip()
-        if query.lower() == 'quit':
-            print("Exiting.")
-            break
-        # For demo: just echo, or you can wire up a retrieval/QA agent here
-        print(f"[Echo] You entered: {query}")
-        # TODO: Integrate retrieval/QA over embeddings/results if desired
 
 if __name__ == "__main__":
     main()
+
+    checkpointer=MeomorySaver()
+    config_new={'configurable':{'thread':1}}
+    graph_reference=get_agent(llm,checkpointer)
+
+    while True:
+        query=input("\nQuery:").strip()
+        response=graph_reference.invoke({'messages':[query]},config=config_new)
+        if query.lower()=='quit':
+            break
+        print('RESPONSE as : ',response['messages'][-1].content)
+
 
 
