@@ -22,6 +22,8 @@ from tqdm import tqdm
 import isodate
 import requests
 from sentence_transformers import SentenceTransformer
+import pickle
+import numpy as np
 
 # ========== CONFIG =============
 CONTRACTS_FOLDER = './contracts'  # Change this to your contracts folder
@@ -196,6 +198,14 @@ def process_all(contracts, max_workers=5):
         results.append(process_contract(contract, semaphore))
     return results
 
+def find_most_relevant_contract(query, contracts, embeddings, model):
+    query_emb = model.encode([query])[0]
+    similarities = np.dot(embeddings, query_emb) / (
+        np.linalg.norm(embeddings, axis=1) * np.linalg.norm(query_emb) + 1e-8
+    )
+    idx = int(np.argmax(similarities))
+    return contracts[idx], similarities[idx]
+
 # ========== MAIN SCRIPT =============
 def main():
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -211,24 +221,37 @@ def main():
     model = SentenceTransformer('all-MiniLM-L6-v2')
     summaries = [el["summary"] for el in results if "summary" in el]
     embeddings_output = model.encode(summaries)
-    import pickle as pkl
     with open(EMBEDDINGS_PKL, 'wb') as f:
-        pkl.dump(embeddings_output, f)
+        pickle.dump(embeddings_output, f)
     print(f"Embeddings saved to {EMBEDDINGS_PKL}")
-    print("\nEntering interactive prompt mode. Type 'quit' to exit.")
-    while True:
+    return results, embeddings_output, model
+
+if __name__ == "__main__":
+    contracts, embeddings, model = main()
+
+    # Load contracts and embeddings for retrieval-augmented Q&A
+    try:
+        with open(RESULTS_JSON, "r", encoding="utf-8") as f:
+            contracts = json.load(f)
+        with open(EMBEDDINGS_PKL, "rb") as f:
+            embeddings = pickle.load(f)
+        model = SentenceTransformer('all-MiniLM-L6-v2')
+    except Exception as e:
+        print(f"[Error] Could not load contracts or embeddings: {e}")
+        contracts, embeddings, model = None, None, None
+
+    while contracts is not None and embeddings is not None and model is not None:
         query = input("\nPrompt: ").strip()
         if query.lower() == 'quit':
             print("Exiting.")
             break
-        # Send the query to Gemma and print the response
+        contract, score = find_most_relevant_contract(query, contracts, embeddings, model)
+        context = json.dumps(contract, indent=2)
+        prompt = f"Given the following contract information:\n{context}\n\nAnswer this question: {query}"
         try:
-            response = call_gemma(query)
+            response = call_gemma(prompt)
             print(f"Gemma: {response}")
         except Exception as e:
             print(f"[Error] Failed to get response from Gemma: {e}")
-
-if __name__ == "__main__":
-    main()
 
 
