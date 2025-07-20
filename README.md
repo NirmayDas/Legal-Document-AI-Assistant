@@ -34,7 +34,7 @@ We've implemented a pipeline, which has the following steps....
 1. Once we have the parsed contracts, and the vectorized/embedded data, we save it to a Knowledge Graph DB, according to the above model/schema
 2. We're using Neo4J for this, but it can work with any KG DB
 
-**NOTE**: this part isn't implemented, as we coouldn't get it to work in time.. So, we only implemented the first part (parser agent) and the 3rd part (query agent), but the query agent directly queries from the parsed JSON files...
+**NOTE**: this part isn't implemented, as we coouldn't get it to work in time.. So, we only implemented the first part (parser agent) and the 3rd part (query agent), but the query agent directly queries from the parsed JSON files
 
 ## AI Query Agent
 
