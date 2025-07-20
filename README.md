@@ -1,4 +1,4 @@
-# ai-tinkerer-hackathon-25
+# Legal Document AI Assistant (Google Cloud NYC Hackathon 2025 - AI Tinkerers)
 
 This is a helpful assistant tasked with finding and explaining relevant information about internal legal contracts. We got the legal contract corpus from [Kaggle](https://www.kaggle.com/datasets/konradb/atticus-open-contract-dataset-aok-beta) and [CUAD](https://www.atticusprojectai.org/cuad).
 
