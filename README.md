@@ -29,7 +29,7 @@ We've implemented a pipeline, which has the following steps....
 1. This parses the plain text contract documents, according to the above model
 2. Once that is complete, it also uses an AI model to add embeddings to the summary
 
-## Uploading that to Neo4J DB
+## Uploading that to Neo4J DB (future goal)
 
 1. Once we have the parsed contracts, and the vectorized/embedded data, we save it to a Knowledge Graph DB, according to the above model/schema
 2. We're using Neo4J for this, but it can work with any KG DB
