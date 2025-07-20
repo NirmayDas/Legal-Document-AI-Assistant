@@ -1,58 +1,31 @@
 [
   {
     "EXHIBIT A": {
-      "title": "ESCROW SERVICES DESCRIPTION",
-      "description": "Successful completion of a transaction involves exchange of merchandise with payment. The buyer has to be satisfied he/she received what they thought they were getting and the seller has to be sure he/she gets paid. i-Escrow holds payment from the buyer in trust until the seller sends the merchandise to the buyer. Once the buyer accepts the merchandise, i-Escrow forwards the payment to the seller by writing a check. A typical escrow transaction: When an auction ends, your end of auction email contains links to i-Escrow. Once you have signed up with i-Escrow   you go through the following steps to complete your transaction. 1.   Start a transaction by entering the description and price of the merchandise along with email address of the other party. 2.   The other party receives an email from i-Escrow requesting an acknowledgement of the terms of the transaction. 3.   Once the transaction is acknowledged by the other party, the buyer pays i-Escrow the agreed upon price, by credit card or other means. 4.   i-Escrow informs the seller that payment has been received, requesting them to ship the merchandise directly to the buyer. 5.   The seller provides i-Escrow with the tracking number of the shipment. 6.   The buyer receives and accepts the merchandise. 7.   i-Escrow sends the check to the seller.  Returns only the JSON object, no explanation."
+      "name": "ESCROW SERVICES DESCRIPTION",
+      "description": "Successful completion of a transaction involves exchange of merchandise with payment. The buyer has to be satisfied he/she received what they thought they were getting and the seller has to be sure he/she gets paid. i-Escrow holds payment from the buyer in trust until the seller sends the merchandise to the buyer. Once the buyer accepts the merchandise, i-Escrow forwards the payment to the seller by writing a check. A typical escrow transaction:\n\nWhen an auction ends, your end of auction email contains links to i-Escrow.\nOnce you have signed up with i-Escrow   you go through the following steps to complete your transaction.\n1.  Start a transaction by entering the description and price of the merchandise along with email address of the other party.\n2.  The other party receives an email from i-Escrow requesting an acknowledgement of the terms of the transaction.\n3.  Once the transaction is acknowledged by the other party, the buyer pays i-Escrow the agreed upon price, by credit card or other means.\n4.  i-Escrow informs the seller that payment has been received, requesting them to ship the merchandise directly to the buyer.\n5.  The seller provides i-Escrow with the tracking number of the shipment.\n6.  The buyer receives and accepts the merchandise.\n7.  i-Escrow sends the check to the seller.\n\nFor more information about I-Escrow, visit their web-site at www.iescrow.com"
     },
     "file_id": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement"
   },
   {
     "EXHIBIT A": {
       "Services": [
-        {
-          "description": "Service Delivery",
-          "details": "Provide comprehensive service delivery according to agreed-upon specifications and timelines. Ensure high-quality execution and adherence to quality standards."
-        },
-        {
-          "description": "Technical Support",
-          "details": "Offer timely and effective technical support to address client issues and ensure smooth operation."
-        },
-        {
-          "description": "Updates and Maintenance",
-          "details": "Regularly deliver updates and maintenance to maintain service level."
-        }
-      ],
-      "Quality Standards": {
-        "Metrics": [
-          "Task Completion Rate",
-          "Error Rate",
-          "Client Satisfaction"
-        ],
-        "Targets": [
-          "95% Task Completion Rate",
-          "0.1% Error Rate",
-          "85% Client Satisfaction"
-        ]
-      }
-    },
-    "Return": [
-      {
-        "description": "Confirmation",
-        "details": "We acknowledge receipt of this document.  Please ensure we have accurately received this service agreement and its requirements."
-      }
-    ],
-    "EXHIBIT B": {
-      "Purchase Agreement": [
-        {
-          "description": "Agreement Terms",
-          "details": "The Agreement details the key terms of the service agreement."
-        }
+        "Provision of software development services",
+        "Website design and maintenance",
+        "Content creation",
+        "Digital marketing support",
+        "Social media management",
+        "SEO optimization",
+        "Analytics tracking",
+        "Data analysis",
+        "Reporting and insights",
+        "Training"
       ]
     },
+    "Return": "Training",
     "file_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT"
   },
   {
-    "summary": "This is a joint venture agreement between Collectible Concepts Group and Pivotal Self Service Tech. The agreement outlines the roles, responsibilities, and terms of the joint venture, including the formation of a joint venture, division of profits, terms of operation, duration, and termination provisions. It covers aspects such as business scope, capital contributions, office location, accounting, distribution, and the legal basis for the agreement.",
+    "summary": "This contract outlines the formation of a joint venture between Collectible Concepts Group and Pivotal Self Service Tech, Inc. It details the business scope, capital contributions, division of profits, term of the agreement, and various operational responsibilities for the joint venture. It also includes provisions for termination, distribution of profits, and legal considerations.",
     "contract_type": "Joint Venture Agreement",
     "parties": [
       {
@@ -65,7 +38,7 @@
       }
     ],
     "effective_date": "2003-03-01",
-    "contract_scope": "The joint venture is formed for the purpose of engaging generally in the business of marketing batteries and related products, including the display of licensed logos, images, and other labels differentiating them from the PVSS Products.",
+    "contract_scope": "The Joint Venture is formed for the purpose of engaging generally in the business of marketing batteries and related products, including the display of licensed logos, images, and brand names.",
     "duration": null,
     "end_date": null,
     "total_amount": null,
@@ -92,8 +65,36 @@
         "clause_type": "Service-Level Agreements"
       },
       {
-        "summary": "Marketing Program",
-        "clause_type": "Develop a global marketing program for licensed Products"
+        "summary": "Distribution of Income and Losses",
+        "clause_type": "Distribution of Income and Losses"
+      },
+      {
+        "summary": "Accounting Provisions",
+        "clause_type": "Accounting Provisions"
+      },
+      {
+        "summary": "Procedure on Termination and Liquidation",
+        "clause_type": "Procedure on Termination and Liquidation"
+      },
+      {
+        "summary": "Sale or Purchase of Interest of Joint Venturer Prohibited",
+        "clause_type": "Sale or Purchase of Interest of Joint Venturer Prohibited"
+      },
+      {
+        "summary": "Internal Revenue Code Election",
+        "clause_type": "Internal Revenue Code Election"
+      },
+      {
+        "summary": "Not Creating Partnership",
+        "clause_type": "Not Creating Partnership"
+      },
+      {
+        "summary": "No Limitation on Powers",
+        "clause_type": "No Limitation on Powers"
+      },
+      {
+        "summary": "Cooperation",
+        "clause_type": "Cooperation"
       }
     ],
     "file_id": "ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT"
@@ -103,126 +104,68 @@
     "sections": [
       {
         "chapter": 5,
-        "content": "Design of packaging"
+        "title": "Design of packaging",
+        "content": "Packaging shall be designed in a suitable way to protect the packed good against transportation load according to IEC 60721-3-2 class's 2M2/2K4\nInternational pictograms following the IEC 60601 series shall be used for parts which fall under specific restrictions for transport or storage."
       },
       {
-        "chapter": 6,
-        "content": "Literature"
+        "chapter": 3,
+        "title": "Data Identifier for Expiration Date and Batch",
+        "content": "The data identifier shall be used to indicate the validity of the product or the batch number."
+      },
+      {
+        "chapter": 4,
+        "title": "Labeling",
+        "content": "Labeling requirements have to be defined for the product concerned. However, minimum requirements are specified in order to allow proper identification throughout all processes involved. The label depends on whether a part/component/system is serialized or not. If it is serialized, it must have the Serial Number."
+      },
+      {
+        "chapter": 5,
+        "title": "Basic requirements for packaging",
+        "content": "Especially for spare parts appropriate packaging are required for the global shipping process. Should those packaging contain wood, generally 'non wood-packaging' according IPPC (International Plant Protection Convention) shall be used, but fumigation of such packaging is not allowed.  Packaging shall be designed in a suitable way to protect the packed good against transportation load according to IEC 60721-3-2 class's 2M2/2K4  International pictograms following the IEC 60601 series shall be used for parts which fall under specific restrictions for transport or storage."
       },
       {
         "chapter": 7,
-        "content": "Transition and retrospective measures"
+        "title": "Transition and retrospective measures",
+        "content": "n.a."
       },
       {
         "chapter": 8,
-        "content": "Changes to prior version"
+        "title": "Changes to prior version",
+        "content": "CR-No.: 2007-005  Changes to previous edition 04798372 AND 02S 03:    \u00b7 Chapter 2: Reference document IEC 60721-3-2 added  \u00b7 Chapter 5: Design of packaging changed     CR-No. 2006-008 (CR N06/0207)  Changes to previous edition 04798372 AND 02S 02:     \u00b7 Title: Added: and basic requirements for packaging  \u00b7 Chapter 4.2 Added: Expiration date and batch  \u00b7 Chapter 4.3: Completely new    CR-No. 2006-01, 2006-02  Changes to previous edition 04798372 AND 02S 01:     \u00b7 Chapter 2, 4.2 : EN 800 replaced by ISO/IEC 16388  \u00b7 Chapter 4.2 : general requirements at the beginning stated more clearly, footnote added"
       }
     ],
     "file_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT"
   },
   {
-    "signatures": [
-      {
-        "client": "Consultant",
-        "date": "January 13, 2005"
-      },
-      {
-        "client": "Adams GOLF, LTD.",
-        "date": "January 13, 2005"
-      }
-    ],
+    "return_date": "January 13, 2005",
     "file_id": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT"
   },
   {
-    "documents": [
-      {
-        "type": "Study Release",
-        "content": "MD Anderson Cancer Center and Adaptimmune Form Strategic Alliance to Advance Development of Immunotherapies Targeting Multiple Cancers"
-      }
-    ],
+    "error": "Failed to parse JSON: Expecting ',' delimiter: line 7 column 3104 (char 3318)",
+    "raw": "```json\n{\n  \"documents\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"document\",\n      \"name\": \"MD Anderson Cancer Center and Adaptimmune Strategic Alliance to Advance Development of Immunotherapies Targeting Multiple Cancers\",\n      \"content\": \"Adaptimmune Therapeutics plc (Nasdaq: ADAP) and The University of Texas MD Anderson Cancer Center announced that they have entered into a multi-year strategic alliance designed to expedite the development of novel adoptive T-cell therapies for multiple types of cancer.  The alliance pairs MD Anderson's preclinical and clinical teams with Adaptimmune's scientists and proprietary SPEAR\u00ae (Specific Peptide Enhanced Affinity Receptor) T-cell technology platform, which enables Adaptimmune to identify targets expressed on solid and hematologic cancers and to develop affinity enhanced T-cell receptors (TCRs) with optimal potency and specificity against them.  The teams will collaborate in a number of areas including preclinical and clinical development of Adaptimmune's SPEAR T-cell therapies targeting MAGE-A10 and future clinical stage first and second generation SPEAR T-cell therapies such as MAGE-A4 across a number of cancers. The alliance will also drive research and development of other new SPEAR TCR therapies to targets in other tumor types such as breast cancers and facilitate clinical study participation by MD Anderson in other Adaptimmune trials. Access to MD Anderson's tumor repository will guide further target selection and clinical trial design, while its cancer immunology cores and expertise in performing translational medicine studies may help optimize the efficacy and safety of SPEAR T-cell therapies.  Adaptimmune Therapeutics plc (Nasdaq: ADAP), a leader in T-cell therapy to treat cancer, and The University of Texas MD Anderson Cancer Center announced today that they have entered into a multi-year strategic alliance designed to expedite the development of novel adoptive T-cell therapies for multiple types of cancer.  The alliance pairs MD Anderson's preclinical and clinical teams with Adaptimmune's scientists and proprietary SPEAR\u00ae T-cell technology platform, which enables Adaptimmune to identify targets expressed on solid and hematologic cancers and to develop affinity enhanced T-cell receptors (TCRs) with optimal potency and specificity against them.  The teams will collaborate in a number of areas including preclinical and clinical development of Adaptimmune's SPEAR T-cell therapies targeting MAGE-A10 and future clinical stage first and second generation SPEAR T-cell therapies such as MAGE-A4 across a number of cancers. The alliance will also drive research and development of other new SPEAR TCR therapies to targets in other tumor types such as breast cancers and facilitate clinical study participation by MD Anderson in other Adaptimmune trials.  About MD Anderson   The University of Texas MD Anderson Cancer Center in Houston ranks as one of the world's most respected centers focused on cancer patient care, research, education and prevention. The institution's sole mission is to end cancer for patients and their families around the world. MD Anderson is one of only 45 comprehensive cancer centers designated by the National Cancer Institute (NCI). MD Anderson is ranked No.1 for cancer care in U.S. News & World Report's \"Best Hospitals\" survey. It has ranked as one of the nation's top two hospitals since the survey began in 1990, and has ranked first for nine of the   46\n\n  E:  \"The University of Texas MD Anderson Cancer Center and Adaptimmune Strategic Alliance to Advance Development of Immunotherapies Targeting Multiple Cancers\"\n}\n```",
     "file_id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT"
   },
   {
-    "terms": [
-      {
-        "section": "5.1 TERM AND TERMINATION",
-        "provisions": [
-          "PivX may terminate this Agreement for convenience by giving at least thirty (30) days written notice of termination to Detto. This Agreement may be terminated by either party in event of a material breach of this Agreement that is not cured within thirty (30) days.",
-          "Upon the expiration or termination of this Agreement, Detto shall, within thirty (30) days, pay to PivX all amounts due hereunder, return to PivX all products and demonstration copies received from PivX, erase any and all of the foregoing from all computer memories and storage devices within Detto's possession or control and, if requested, provide PivX with a signed written statement that Detto has complied with the foregoing obligations."
-        ]
-      },
-      {
-        "section": "6.3 NOTICES",
-        "provisions": [
-          "All notices shall be given in writing and shall be considered effective when (a) personally delivered, (b) upon confirmed receipt if sent by electronic mail or facsimile; or (c) two (2) days after posting if sent by overnight registered private carrier (e.g. DHL, Federal Express, etc.)."
-        ]
-      },
-      {
-        "section": "6.4 ASSIGNMENT",
-        "provisions": [
-          "Detto may not assign any of its rights or delegate any of its obligations hereunder, whether by operation of law or otherwise, without PivX's prior written consent. Subject to the foregoing, this Agreement shall bind and inure to the benefit of the parties, their respective successors and permitted assigns."
-        ]
-      },
-      {
-        "section": "6.5 CONFIDENTIALITY",
-        "provisions": [
-          "By virtue of this Agreement, each party may have access to information that is confidential to the other (\"Confidential Information\"). Confidential Information shall include, but not be limited to, software, documentation, formulas, methods, know how, processes, designs, new products, developmental work, marketing requirements, marketing plans, customer names, prospective customer names, the terms and pricing under the Agreement, and any information clearly identified in writing at the time of disclosure as confidential.",
-          "A party's Confidential Information shall not include information that (a) is or becomes a part of the public domain through no act or omission of the other party; or (b) is independently developed by the other party without use of or reference to the first party's Confidential Information."
-        ]
-      },
-      {
-        "section": "6.6 GENERAL",
-        "provisions": [
-          "If any provision of this Agreement shall be held by a court of competent jurisdiction to be contrary to law, such provision shall be changed and interpreted so as to best accomplish the objectives of the original provision to the fullest extent allowed by law and the remaining provisions of this Agreement shall remain in full force and effect.",
-          "Detto is an independent contractor, and nothing herein shall be construed to create an employer-employee, partnership, joint venture, or agency relationship between the parties. Detto shall have no authority, right or power to create any obligation or responsibility on behalf of PivX."
-        ]
-      },
-      {
-        "section": "6.7 GOVERNING LAW",
-        "provisions": [
-          "This Agreement shall be governed by and construed under the laws of the State of California, excluding conflict of laws provisions and excluding the 1980 United Nations Convention on Contracts for the International Sale of Goods.",
-          "The parties consent to the personal and exclusive jurisdiction of and venue in the state and federal courts of Orange County, California, U.S.A. for any disputes arising out of this Agreement."
-        ]
-      },
-      {
-        "section": "6.8 ASSIGNMENT",
-        "provisions": [
-          "PivX may not assign any of its rights or delegate any of its obligations hereunder, whether by operation of law or otherwise, without PivX's prior written consent. Subject to the foregoing, this Agreement shall bind and inure to the benefit of the parties, their respective successors and permitted assigns."
-        ]
-      },
-      {
-        "section": "6.9 GENERAL",
-        "provisions": [
-          "If any provision of this Agreement shall be held by a court of competent jurisdiction to be contrary to law, such provision shall be changed and interpreted so as to best accomplish the objectives of the original provision to the fullest extent allowed by law and the remaining provisions of this Agreement shall remain in full force and effect.",
-          "Detto is an independent contractor, and nothing herein shall be construed to create an employer-employee, partnership, joint venture, or agency relationship between the parties. Detto shall have no authority, right or power to create any obligation or responsibility on behalf of PivX."
-        ]
-      },
-      {
-        "section": "7.1 TERM AND TERMINATION",
-        "provisions": [
-          "The term of this Agreement shall commence on the Effective Date and continue for six (6) months.",
-          "PivX may terminate this Agreement for convenience by giving at least thirty (30) days written notice of termination to Detto. This Agreement may be terminated by either party in event of a material breach of this Agreement that is not cured within thirty (30) days.",
-          "If a material breach is cured within a thirty (30) day cure period this Agreement shall remain in effect as if no material breach had occurred.",
-          "This Agreement shall terminate automatically without notice and without further action by the other party in the event that the other party becomes insolvent, which means it becomes unable to pay its debts in the ordinary course of business as they come due, or makes an assignment of this Agreement for the benefit of creditors."
-        ]
-      },
-      {
-        "section": "8.4 INDEMNIFICATION",
-        "provisions": [
-          "Detto shall indemnify and hold PivX harmless from and against any and all damages, liabilities, costs and expenses (including reasonable attorney's fees) which PivX incurs as a result of any claim based on any breach of any representation or warranty, covenant or agreement by Detto under this Agreement or any breach of this Agreement by PivX; provided: (i) that PivX promptly gives written notice of any claim to Detto; (ii) at Detto's expense, PivX provides reasonable assistance which Detto may reasonably request for the defense of the claim; and (iii) Detto has the right to control the defense or settlement of the claim, provided, however, that PivX shall have the right to participate in, but not control, any litigation for which indemnification is sought with counsel of its own choosing, at its own expense."
-        ]
-      }
+    "term_of_agreement": {
+      "startDate": "2024-01-01",
+      "duration": "6 months"
+    },
+    "termination_conditions": [
+      "30 days written notice",
+      "material breach",
+      "insolvency",
+      "assignment"
     ],
+    "liability": "Not liable for compensation of loss of profit or sales.",
     "file_id": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT"
   },
   {
-    "error": "Failed to parse JSON: Illegal trailing comma before end of object: line 22 column 132 (char 1062)",
-    "raw": "```json\n{\n  \"summary\": \"This contract outlines the terms of a joint venture agreement between ADMA BioManufacturing and Sanofi Pasteur, establishing a supply agreement for Rabies Fraction II Paste and subsequent Batches of Product. It details obligations regarding the Supply Plan, compensation, liability, and termination rights.\",\n  \"contract_type\": \"Joint Venture\",\n  \"parties\": [\n    {\n      \"name\": \"ADMA BioManufacturing, LLC\",\n      \"location\": \"5800 Park of Commerce Boulevard NW, Boca Raton, Florida 33487 USA\"\n    },\n    {\n      \"name\": \"Sanofi Pasteur S.A.\",\n      \"location\": \"14, espace Henry Vallee, 69007, Lyon, France\"\n    }\n  ],\n  \"effective_date\": \"2017-12-21\",\n  \"contract_scope\": \"Provision of Rabies Fraction II Paste and Batches of Product under the agreement.\",\n  \"duration\": \"Not specified\",\n  \"end_date\": \"Not specified\",\n  \"total_amount\": \"Not specified\",\n  \"governing_law\": \"Not specified\",\n  \"clauses\": [\n    {\n      \"summary\": \"All capitalized terms used and not defined in this Amendment shall have the meaning as set out in the Agreement.\",\n    },\n    {\n      \"summary\": \"The supply terms set forth in Section 1 of Amendment #2 are hereby deleted in their entirety.\",\n    },\n    {\n      \"summary\": \"The parties agree to amend the Agreement to impose on ADMA an obligation to supply a minimum of [***] Batches of Product for that period stalling from Q4 2018 up to Q4 2019, as further specified in Exhibit A attached hereto. Should ADMA fail to supply a minimum of [***] Batches of Product (the 'Minimum Volume') of Product during the period specified, Sanofi Pasteur assumes all risk of loss.\"\n    },\n    {\n      \"summary\": \"The Compensation Fee is fair and equitable.\"\n    },\n    {\n      \"summary\": \"The parties release, remakes, and forever discharge each other from all claims and liabilities arising from the Updated Supply Plan and/or the Compensation Fee.\"\n    }\n  ]\n}\n```",
+    "error": "Failed to parse JSON: Illegal trailing comma before end of object: line 22 column 132 (char 1212)",
+    "raw": "```json\n{\n  \"summary\": \"This agreement details the transfer of a batch of Rabies Fraction II Paste from ADMA BioManufacturing, LLC to Sanofi Pasteur S.A., with provisions for liability, compensation, and distribution of the product. It outlines the responsibilities of both parties, including a commitment to supply a minimum quantity of product and addressing potential losses due to non-compliance.\",\n  \"contract_type\": \"Joint Venture & Licensing\",\n  \"parties\": [\n    {\n      \"name\": \"ADMA BioManufacturing, LLC\",\n      \"location\": \"5800 Park of Commerce Boulevard NW, Boca Raton, Florida 33487 USA\"\n    },\n    {\n      \"name\": \"Sanofi Pasteur S.A.\",\n      \"location\": \"14, espace Henry Vallee, 69007, Lyon, France\"\n    }\n  ],\n  \"effective_date\": \"2017-12-21\",\n  \"contract_scope\": \"The agreement covers the transfer and management of the Rabies Fraction II Paste, detailing responsibilities for supply, liability, and compensation.\",\n  \"duration\": \"Not specified\",\n  \"end_date\": \"Not specified\",\n  \"total_amount\": \"Not specified\",\n  \"governing_law\": \"Not specified\",\n  \"clauses\": [\n    {\n      \"summary\": \"All capitalized terms used and not defined in this Amendment shall have the meaning as set out in the Agreement.\",\n    },\n    {\n      \"summary\": \"The supply terms set forth in Section 1 of Amendment #2 (the \\\"Prior Supply Terms\\\") are hereby deleted in their entirety. In their place, the Parties agree to the following (and Section 2.1 of the Agreement is hereby amended as needed to implement the following):\"\n    },\n    {\n      \"clauses\": [\n        {\n          \"summary\": \"Sanofi Pasteur agrees to supply the Product.\",\n          \"text\": \"The Product\\\" is defined as the Rabies Fraction II Paste.\"\n        },\n        {\n          \"summary\": \"ADMA agrees to reimburse Sanofi Pasteur, at the dollar value, the Source Plasma in case of damage or loss.\",\n          \"text\": \"The Compensation Fee\\\" is defined as the dollar value.\"\n        }\n      ]\n    },\n    {\n      \"summary\": \"ADMA declares the Compensation Fee is fair and equitable.\",\n      \"text\": \"The source plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA\"\n    },\n    {\n      \"summary\": \"Each Party releases, remises and forever discharges the other Party, and its Affiliates, from all claims arising directly out of, or related to the Updated Supply Plan and/or the amount of the Compensation Fee Sanofi agrees to pay to ADMA.\",\n    }\n  ]\n}\n```",
     "file_id": "ADMA BioManufacturing, LLC -  Amendment 3 to Manufacturing Agreement"
   },
   {
-    "summary": "Consulting Agreement between Aduro Biotech, Inc. and IREYA B.V. regarding services provision, compensation, term, confidentiality, intellectual property, and termination.",
-    "contract_type": "Consulting Agreement",
+    "summary": "Consulting Agreement between Aduro Biotech, Inc. and IREYA B.V. regarding services, compensation, term, confidentiality, and intellectual property.",
+    "contract_type": "Affiliate Agreement",
     "parties": [
       {
         "name": "Aduro Biotech, Inc.",
@@ -231,14 +174,14 @@
       },
       {
         "name": "IREYA B.V.",
-        "location": "Staalwijkstraat 16, 2313 XR Leiden, the Netherlands",
-        "role": "Provider"
+        "location": "Staalwijkstraat 16, 2313 XR Leiden, Netherlands",
+        "role": "Consultant"
       }
     ],
     "effective_date": "2020-07-01",
-    "contract_scope": "Services provision related to research, clinical development, and business matters.",
-    "duration": "Until December 31, 2020 (unless extended or earlier terminated)",
-    "end_date": "2020-12-31",
+    "contract_scope": "Service provision and ongoing consultation on research and development.",
+    "duration": "December 31, 2020",
+    "end_date": null,
     "total_amount": null,
     "governing_law": "California",
     "clauses": [
@@ -266,25 +209,31 @@
     "file_id": "ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING AGREEMENT(1)"
   },
   {
-    "summary": "Consulting Agreement for Services between Aduro Biotech, Inc. and IREYA B.V.",
-    "contract_type": "Development",
+    "summary": "Consulting Agreement between Aduro Biotech, Inc. and IREYA B.V. regarding services provided, compensation, term, confidentiality, and intellectual property.",
+    "contract_type": "Consulting Agreement",
     "parties": [
       {
         "name": "Aduro Biotech, Inc.",
-        "address": "740 Heinz Avenue, Berkeley, CA 94710",
-        "role": "Client"
+        "location": "740 Heinz Avenue, Berkeley, CA 94710"
       },
       {
         "name": "IREYA B.V.",
-        "address": "Staalwijkstraat 16, 2313 XR Leiden, the Netherlands",
-        "role": "Vendor"
+        "location": "Staalwijkstraat 16, 2313 XR Leiden, Netherlands"
+      },
+      {
+        "name": "Stephen T. Isaacs",
+        "title": "President and Chief Executive Officer"
+      },
+      {
+        "name": "Andrea van Elsas",
+        "title": "Chief Scientific Officer"
       }
     ],
     "effective_date": "2020-07-01",
-    "contract_scope": "Consulting services related to research and clinical development programs.",
-    "duration": "Until December 31, 2020",
+    "contract_scope": "Services provided to provide advice and consultation regarding research and clinical development programs.",
+    "duration": "Until December 31, 2020 (unless extended or earlier terminated)",
     "end_date": "2020-12-31",
-    "total_amount": null,
+    "total_amount": "null",
     "governing_law": "California",
     "clauses": [
       {
@@ -306,80 +255,75 @@
       {
         "summary": "Service-Level Agreements",
         "clause_type": "Service-Level Agreements"
-      },
-      {
-        "summary": "Intellectual Property",
-        "clause_type": "Intellectual Property"
-      },
-      {
-        "summary": "Independent Contractor",
-        "clause_type": "Independent Contractor"
-      },
-      {
-        "summary": "Non-Solicitation",
-        "clause_type": "Non-Solicitation"
-      },
-      {
-        "summary": "Restricted Period",
-        "clause_type": "Restricted Period"
-      },
-      {
-        "summary": "Material Non-Public Information",
-        "clause_type": "Material Non-Public Information"
-      },
-      {
-        "summary": "Representations",
-        "clause_type": "Representations"
-      },
-      {
-        "summary": "Miscellaneous",
-        "clause_type": "Miscellaneous"
       }
     ],
     "file_id": "ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING AGREEMENT"
   },
   {
-    "acceptance": "Very truly yours,",
-    "date": "2023-10-27",
-    "signature": "AFSALA BANCORP, INC.",
+    "acceptance": [
+      {
+        "date": "2023-10-27",
+        "signature": "John M. Lisicki"
+      },
+      {
+        "date": "2023-10-27",
+        "signature": "John M. Lisicki"
+      },
+      {
+        "date": "2023-10-27",
+        "signature": "John M. Lisicki"
+      }
+    ],
     "file_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT"
   },
   {
     "agreement": [
       "Schedule A",
       "Schedule C",
-      "Schedule D",
-      "Schedule E",
-      "Schedule F",
-      "Schedule G",
-      "Schedule H",
-      "Schedule I",
-      "Schedule J",
-      "Schedule K",
-      "Schedule L",
-      "Schedule M",
-      "Schedule N",
-      "Schedule O",
-      "Schedule P",
-      "Schedule Q",
-      "Schedule R",
-      "Schedule S",
-      "Schedule T",
-      "Schedule U",
-      "Schedule V",
-      "Schedule W",
-      "Schedule X",
-      "Schedule Y",
-      "Schedule Z"
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A",
+      "Schedule C",
+      "Schedule A"
     ],
     "file_id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement"
   },
   {
-    "source": "AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
-    "contacts": {
+    "contact_information": {
       "Charles Liles": "626-737-8118",
-      "Jason I. Spark": "jason@canalecomm.com",
-      "Canale Comm": "619-849-6005"
+      "Jason I. Spark Canale": "619-849-6005",
+      "Canale Comm": "646-564-2156",
+      "Email": "contact@xencor.com"
+    },
+    "company_information": {
+      "company_name": "Xencor, Inc.",
+      "industry": "Biopharmaceutical",
+      "legal_status": "Inc.",
+      "registered_trademarks": [
+        "XmAb",
+        "Xencor",
+        "AIMMUNE",
+        "AIMMUNETheraetics"
+      ]
+    },
+    "press_release_information": {
+      "content": "Xencor, Inc. has granted an exclusive worldwide license to develop and commercialize the investigational humanized monoclonal antibody XmAb7195 to Aimmune Therapeutics, Inc.  XmAb7195, which has been renamed AIMab7195, was originally developed by Xencor for the treatment of allergic asthma.  Aimmune Therapeutics will make an upfront payment to Xencor of $5 million in cash and $5 million in equity, equivalent to 156,238 newly issued shares of Aimmune common stock at $32.0025/share."
     },
     "file_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement"
   }

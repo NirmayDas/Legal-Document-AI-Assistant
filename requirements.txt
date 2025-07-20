@@ -1,0 +1,18 @@
+# Core dependencies for knowledge-graph.py
+sentence-transformers>=2.2.0
+requests>=2.28.0
+pydantic>=2.0.0
+tqdm>=4.64.0
+isodate>=0.6.0
+numpy>=1.21.0
+
+# Optional dependencies (used in comments but not in current code)
+# chromadb>=0.4.0
+# pypdf>=3.0.0
+# tiktoken>=0.4.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0
+
+# For deployment (if needed)
+# fastapi>=0.100.0
+# uvicorn>=0.22.0 
